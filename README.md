@@ -114,7 +114,6 @@ Install semua dependencies sekaligus dengan perintah:
 
 Atau install manual satu per satu:
 ```bash
-!pip install ultralytics
-!pip install roboflow
+!pip install ultralytics roboflow
 ```
 
