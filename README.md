@@ -37,7 +37,7 @@ rf = Roboflow(api_key="YOUR_API_KEY")
 project = rf.workspace("WORKSPACE").project("PROJECT-ID")
 dataset = project.version(1).download("yolov8")
 ```
-> Ganti `YOUR_API_KEY` dengan API key Roboflow kamu.
+> Ganti `YOUR_API_KEY, WORKSPACE dan PROJECT-ID` dengan API key, nama Workspace dan Project-id Roboflow kamu.
 
 ### 3. Simpan Dataset ke Google Drive
 ```python
