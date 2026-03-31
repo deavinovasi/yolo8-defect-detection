@@ -106,4 +106,15 @@ files.download('/content/runs/detect/predict/output.mp4')
 ---
 
 ## Requirements
-Lihat `requirements.txt`
+File `requirements.txt` berisi daftar library Python yang dibutuhkan untuk menjalankan proyek ini.
+Install semua dependencies sekaligus dengan perintah:
+```bash
+!pip install -r requirements.txt
+```
+
+Atau install manual satu per satu:
+```bash
+!pip install ultralytics
+!pip install roboflow
+```
+
